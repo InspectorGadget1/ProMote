@@ -1,0 +1,120 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.wrap{
+    display: flex;
+    padding-bottom: 4rem;
+    overflow: hidden;
+}
+.product-title{
+    padding-top: 5rem;
+    min-width: 20rem;
+}
+
+  .grid2x2 {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .grid2x2 > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    flex-direction: column;
+  }
+  .grid2x2 > div  {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .box { 
+      margin: 20px; 
+      border: 4px solid grey;
+      background-color: black;
+      min-height: 25rem;
+      color: black;
+
+}
+  .box1 :hover {
+      background-color: rgb(224, 224, 224);
+
+      transition: all 0.7s ease-out 0s;
+    }
+    .box1 :hover .porpose{
+        color:#212529;;
+        transition: all 0.7s ease-out 0s;
+    }
+    .box2 :hover {
+        background-color: rgb(224, 224, 224);
+  
+        transition: all 0.7s ease-out 0s;
+      }
+      .box2 :hover .porpose{
+          color:#212529;
+          transition: all 0.7s ease-out 0s;
+      }
+      .box3 :hover {
+        background-color: rgb(224, 224, 224);
+  
+        transition: all 0.7s ease-out 0s;
+      }
+      .box3 :hover .porpose{
+          color:#212529;
+          transition: all 0.7s ease-out 0s;
+      }
+      .box4 :hover {
+        background-color: rgb(224, 224, 224);
+  
+        transition: all 0.7s ease-out 0s;
+      }
+      .box4 :hover .porpose{
+          color:#212529;
+          transition: all 0.7s ease-out 0.5s;
+      }
+  .porpose{
+      padding: 2rem;
+      color: #d4d4d4;
+
+  }
+  .product-propose{
+    padding-bottom: 10rem;
+  }
+  .porpose-desc{
+      padding: 2rem;
+  }
+  .porpose-block{
+      display: block;
+  }
+  .porpose-title{
+      padding-left: 1rem;
+  }
+  .portfolio{
+      padding-bottom: 10rem;
+  }
+  .portfolio-title{
+      padding: 1rem;
+  }
+  .carousel{
+      width: 80%;
+      margin: 0 auto;
+  }
+  .wrap3{
+      display: flex;
+      justify-content: space-around;
+      color: #212529;
+      
+  }
+  .wrap3 h2{
+      padding-bottom: 3rem;
+  }
+  .wrap3 a{
+    text-decoration: none;
+    color: #747474;
+    display: block;
+  }
+  .contact{
+      padding-bottom: 4rem;
+  }
+  .social{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 2rem;
+  }

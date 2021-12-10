@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .grid2x2 {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .grid2x2 > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+  .grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .card{
+      min-height: 25rem;
+  }
+  
+  .box { margin: 20px;
+}
+.hero-cabinet{
+    padding-bottom: 8rem;
+    padding-top: 2rem;
+}
+.orders{
+    padding-bottom: 8rem ;
+}
+.wrap3{
+    display: flex;
+    justify-content: space-around;
+    color: #212529;
+    
+}
+.wrap3 h2{
+    padding-bottom: 3rem;
+}
+.wrap3 a{
+  text-decoration: none;
+  color: #747474;
+  display: block;
+}
+.contact{
+    padding-bottom: 4rem;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
